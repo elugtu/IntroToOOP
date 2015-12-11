@@ -66,5 +66,3 @@ class Ball {
     }
   }
 }
-
-//create a constructor with an x coordinate, y coordinate, and size

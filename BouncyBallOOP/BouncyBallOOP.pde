@@ -6,9 +6,9 @@ Ball e;
 void setup() {
   size(1000, 800);
   b = new Ball();      //initialize b as a new object of the Ball class
-  c = new Ball();
+  c = new Ball();     
   d = new Ball(100);
-  e = new Ball(6, 7, 10);
+  e = new Ball(6, 7, 10);      //this calls Ball e to use the Ball(float tX, float tY, tDiam) constructor
 }
 
 void draw() {
