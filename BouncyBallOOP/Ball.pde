@@ -30,6 +30,16 @@ class Ball {
     vel.mult(30);
     c = color(0, 255, 0);
   }
+  
+  Ball(float tX, float tY, int tDiam){
+    diam = tDiam;
+    loc = new PVector(tX, tY);
+    vel = PVector.random2D();
+    vel.mult(5);
+    c = color(255, 0, 0);
+  }
+  
+  
   //after declaring fields and setting up constructors, you can define your methods
   void display() {
     fill(c);
@@ -56,3 +66,5 @@ class Ball {
     }
   }
 }
+
+//create a constructor with an x coordinate, y coordinate, and size
